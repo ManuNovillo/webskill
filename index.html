@@ -21,72 +21,127 @@
 
     <body>
         <header>
-            <!-- place navbar here -->
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="First slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="1"
-                        aria-label="Second slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="2"
-                        aria-label="Third slide"
-                    ></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active" data-bs-interval="1500">
-                        <img
-                            src="carrusel/anfibios1.png"
-                            class="w-100 d-block"
-                            alt="First slide"
-                        />
+           <!-- place navbar here -->
+        </header>
+        <main class="mt-2">
+            <div class="container">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators list-unstyled">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="First slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                            aria-label="Second slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                            aria-label="Third slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="3"
+                            aria-label="Fourth slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="4"
+                            aria-label="Fith slide"
+                        ></li>
+                        
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img
+                                src="carrusel/peces1.png"
+                                class="w-100 d-block"
+                                alt="First slide"
+                            />
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img
+                                src="carrusel/reptiles1.png"
+                                class="w-100 d-block"
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img
+                                src="carrusel/anfibios1.png"
+                                class="w-100 d-block"
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img
+                                src="carrusel/mamiferos1.png"
+                                class="w-100 d-block"
+                                alt="Fourth slide"
+                            />
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img
+                                src="carrusel/aves1.png"
+                                class="w-100 d-block"
+                                alt="Fith slide"
+                            />
+                        </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
-                        <img
-                            src="carrusel/mamiferos1.png"
-                            class="w-100 d-block"
-                            alt="Second slide"
-                        />
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <h1 class="">Catálogo de animales</h1>
+                <h2>Los otros animales de la tierra</h2>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                        <img src="categorias/anfibios.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                        <h2 class="text-white bg-success">Anfibios</h2>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
-                        <img
-                            src="carrusel/aves1.png"
-                            class="w-100 d-block"
-                            alt="Third slide"
-                        />
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                        <img src="categorias/aves.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                        <h2 class="text-white bg-success">Aves</h2>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                        <img src="categorias/maniferos.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                        <h2 class="text-white bg-success">Mamíferos</h2>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                        <img src="categorias/peces.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                        <h2 class="text-white bg-success">Peces</h2>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                        <img src="categorias/reptiles.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                        <h2 class="text-white bg-success">Reptiles</h2>
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselId"
-                    data-bs-slide="prev"
-                >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselId"
-                    data-bs-slide="next"
-                >
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-            
-        </header>
-        <main></main>
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
