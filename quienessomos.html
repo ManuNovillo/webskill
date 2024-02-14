@@ -19,11 +19,49 @@
     </head>
 
     <body>
-        <header>    
+        <header>  
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(230, 253, 234);">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="logos/logo.png" alt="" width="80"></a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#"> Anfibios</a>
+                                    <a class="dropdown-item" href="#">Aves</a>
+                                    <a class="dropdown-item" href="#">Mamíferos</a>
+                                    <a class="dropdown-item" href="#">Peces</a>
+                                    <a class="dropdown-item" href="reptiles.html">Reptiles</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#registrate">Registrate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#iniciasesion">Inicia
+                                    sesión</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>  
         </header>
 
         <main>
-            <div class="container w-75 pt-5"> 
+            <div class="container w-75 pt-5 pb-4"> 
                 <h2 class="text-center">Quiénes somos</h2>   
                 <p> 
                     <strong>catalogodeanimales.es</strong>
@@ -31,7 +69,7 @@
                     Somos una redacción que trabaja para publicar
                     información de animales, con rigor y libertad
                     Nuestro compromiso es con la verdad, sin fanatismos. 
-                    Nuestro ideario tiene tres líneas rojas innegcxiables: 
+                    Nuestro ideario tiene tres líneas rojas innegoiables: 
                     ser libres, ser fiables y ser honestos.
                 </p> 
                 
@@ -39,7 +77,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button
-                                class="accordion-button text-primary"
+                                class="accordion-button text-primary bg-white"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#acordeon1"
@@ -68,7 +106,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button
-                                class="accordion-button text-primary"
+                                class="accordion-button text-primary bg-white"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#acordeon2"
@@ -97,7 +135,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button
-                                class="accordion-button text-primary"
+                                class="accordion-button text-primary bg-white"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#acordeon3"
@@ -135,32 +173,47 @@
         
         </main>
 
-        <footer>
-            <div class="container w-75 pt-2">
-                <h3 class="text-center">CLM SKILLS WEB - 2021</h3> 
-                <div class="align-items-center">
-                    <button class="btn btn-success">
-                        SUBIR
-                    </button>
+        <footer style="background-color: gray; ">
 
-                    <div>
-                        <p></p>
-                        <p>
+            <h3 class="text-center pt-2">CLM SKILLS WEB - 2021</h3> 
 
-                        </p>
+            <div class="container w-75 pt-2 ">
+
+                <div class="row pt-3">
+                    <div class="col-3">
+                        <button class="btn btn-success">
+                            SUBIR
+                        </button>
                     </div>
 
-                    <div>
-                        <p>
+                    <div class="col-3">
+                        <p> Centros participantes</p>
+        
+                        <p class="text-white">I.E.S. Azarquiel</p>
+                        <p class="text-white">I.E.S. Juan Bosco  </p>
+                        <p class="text-white">I.E.S. Maestre de Calatrava</p>
+                        <p class="text-white">I.E.S. Virgen de Gracia</p>
+                        <p class="text-white">I.E.S. Gregorio Prieto</p>
+                        <p class="text-white"> I.E.S. Pedro Mercedes</p>
+                        <p class="text-white">I.E.S. Brianda de Mendoza</p>
+                        <p class="text-white">I.E.S. Ribera del Tajo</p>  
 
-                        </p>
                     </div>
 
-                    <button class="btn btn-success">
-                        HOME
-                    </button>
+                    <div class="col-3">
+                        <p class="text-white"> Quienes somos </p>
+                        <p class="text-white">Privacidad</p>
+                        <p class="text-white">Contacto</p>
+                    </div>
+
+                    <div class="col-3">
+                        <button class="btn btn-success ">
+                            HOME
+                        </button>
+                    </div>
                 </div>
             </div>
+            <p class="text-center m-0 pb-2"> <strong>Catálogo de animales  ©S1DAM - S1DAW</strong></p> 
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
