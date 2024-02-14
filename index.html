@@ -1,243 +1,190 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>WebSkills</title>
-        <link rel="" href="logos/logo.png" />
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+<head>
+    <title>WebSkills</title>
+    <link rel="" href="logos/logo.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgb(230, 253, 234);">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="logos/logo.png" alt="" width="80"></a>
-                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-    
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="#"> Anfibios</a>
-                                    <a class="dropdown-item" href="#">Aves</a>
-                                    <a class="dropdown-item" href="#">Mamíferos</a>
-                                    <a class="dropdown-item" href="#">Peces</a>
-                                    <a class="dropdown-item" href="reptiles.html">Reptiles</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#registrate">Registrate</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#iniciasesion">Inicia
-                                    sesión</a>
-                            </li>
-                        </ul>
-    
-                    </div>
-                </div>
-            </nav>
-    
-           <!-- place navbar here -->
-        </header>
-        <main class="mt-2">
-            <div class="container">
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators list-unstyled">
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="First slide"
-                        ></li>
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="1"
-                            aria-label="Second slide"
-                        ></li>
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="2"
-                            aria-label="Third slide"
-                        ></li>
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="3"
-                            aria-label="Fourth slide"
-                        ></li>
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="4"
-                            aria-label="Fith slide"
-                        ></li>
-                        
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" data-bs-interval="1500">
-                            <img
-                                src="carrusel/peces1.png"
-                                class="w-100 d-block"
-                                alt="First slide"
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1500">
-                            <img
-                                src="carrusel/reptiles1.png"
-                                class="w-100 d-block"
-                                alt="Second slide"
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1500">
-                            <img
-                                src="carrusel/anfibios1.png"
-                                class="w-100 d-block"
-                                alt="Third slide"
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1500">
-                            <img
-                                src="carrusel/mamiferos1.png"
-                                class="w-100 d-block"
-                                alt="Fourth slide"
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1500">
-                            <img
-                                src="carrusel/aves1.png"
-                                class="w-100 d-block"
-                                alt="Fith slide"
-                            />
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselId"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselId"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgb(230, 253, 234);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="logos/logo.png" alt="" width="80"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#"> Anfibios</a>
+                                <a class="dropdown-item" href="#">Aves</a>
+                                <a class="dropdown-item" href="#">Mamíferos</a>
+                                <a class="dropdown-item" href="#">Peces</a>
+                                <a class="dropdown-item" href="reptiles.html">Reptiles</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#registrate">Registrate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#iniciasesion">Inicia
+                                sesión</a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
-            <div class="text-center mt-2">
-                <h1 class="">Catálogo de animales</h1>
-                <h2>Los otros animales de la tierra</h2>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
-                        <img src="categorias/anfibios.jpeg" alt="" class="rounded-circle w-100 img-fluid">
-                        <h2 class="text-white bg-success">Anfibios</h2>
+        </nav>
+
+        <!-- place navbar here -->
+    </header>
+    <main class="mt-2">
+        <div class="container">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fith slide"></li>
+
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" data-bs-interval="1500">
+                        <img src="carrusel/peces1.png" class="w-100 d-block" alt="First slide" />
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
-                        <img src="categorias/aves.jpeg" alt="" class="rounded-circle w-100 img-fluid">
-                        <h2 class="text-white bg-success">Aves</h2>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="carrusel/reptiles1.png" class="w-100 d-block" alt="Second slide" />
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
-                        <img src="categorias/maniferos.jpeg" alt="" class="rounded-circle w-100 img-fluid">
-                        <h2 class="text-white bg-success">Mamíferos</h2>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="carrusel/anfibios1.png" class="w-100 d-block" alt="Third slide" />
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
-                        <img src="categorias/peces.jpeg" alt="" class="rounded-circle w-100 img-fluid">
-                        <h2 class="text-white bg-success">Peces</h2>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="carrusel/mamiferos1.png" class="w-100 d-block" alt="Fourth slide" />
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
-                        <img src="categorias/reptiles.jpeg" alt="" class="rounded-circle w-100 img-fluid">
-                        <h2 class="text-white bg-success">Reptiles</h2>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="carrusel/aves1.png" class="w-100 d-block" alt="Fith slide" />
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </main>
-        <footer style="background-color: gray; " class="footer">
-
-            <h3 class="text-center pt-2 ">CLM SKILLS WEB - 2021</h3>
-    
-            <div class="container w-75 pt-2 ">
-    
-                <div class="row pt-3">
-                    <div class="col-3 h-100">
-                        <button class="btn btn-success">
-                            SUBIR
-                        </button>
-                    </div>
-    
-                    <div class="col-3 h-100">
-                        <p> Centros participantes</p>
-    
-                        <p class="text-white">I.E.S. Azarquiel</p>
-                        <p class="text-white">I.E.S. Juan Bosco </p>
-                        <p class="text-white">I.E.S. Maestre de Calatrava</p>
-                        <p class="text-white">I.E.S. Virgen de Gracia</p>
-                        <p class="text-white">I.E.S. Gregorio Prieto</p>
-                        <p class="text-white">I.E.S. Pedro Mercedes</p>
-                        <p class="text-white">I.E.S. Brianda de Mendoza</p>
-                        <p class="text-white">I.E.S. Ribera del Tajo</p>
-    
-                    </div>
-    
-                    <div class="col-3 h-100">
-                        <p class="text-white">Quienes somos</p>
-                        <p class="text-white">Privacidad</p>
-                        <p class="text-white">Contacto</p>
-                    </div>
-    
-                    <div class="col-3 h-100">
-                        <button class="btn btn-success ">
-                            HOME
-                        </button>
-                    </div>
+        </div>
+        <div class="text-center mt-2">
+            <h1 class="">Catálogo de animales</h1>
+            <h2>Los otros animales de la tierra</h2>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                    <img src="categorias/anfibios.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                    <h2 class="text-white bg-success">Anfibios</h2>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                    <img src="categorias/aves.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                    <h2 class="text-white bg-success">Aves</h2>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                    <img src="categorias/maniferos.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                    <h2 class="text-white bg-success">Mamíferos</h2>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                    <img src="categorias/peces.jpeg" alt="" class="rounded-circle w-100 img-fluid">
+                    <h2 class="text-white bg-success">Peces</h2>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mt-3">
+                    <a href="reptiles.html"><img src="categorias/reptiles.jpeg" alt=""
+                            class="rounded-circle w-100 img-fluid"></a>
+                    <h2 class="text-white bg-success">Reptiles</h2>
                 </div>
             </div>
-            <p class="text-center m-0 pb-2"> <strong>Catálogo de animales ©S1DAM - S1DAW</strong></p>
-        </footer>
-    
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+        </div>
+    </main>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
+    <footer style="background-color: gray; " class="mt-3">
 
-        <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+        <h3 class="text-center pt-2 ">CLM SKILLS WEB - 2021</h3>
+
+        <div class="container w-75 pt-2 ">
+
+            <div class="row pt-3">
+                <div class="col-md-3 h-100">
+                    <a class="btn btn-success" href="#top">
+                        SUBIR
+                    </a>
+                </div>
+
+                <div class="col-lg-3 h-100">
+                    <p> Centros participantes</p>
+
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="http://www.ies-azarquiel.es/">IES Azarquiel</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="http://www.iesjuanbosco.es/">I.E.S. Juan Bosco</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="http://iesmaestredecalatrava.es/">I.E.S. Maestre de Calatrava</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="https://cifpvirgendegracia.com/">C.I.F.P. Virgen de Gracia</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="http://www.iesgregorioprieto.com/">I.E.S. Gregorio Prieto</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="https://www.iespedromercedes.es/">I.E.S. Pedro Mercedes</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="http://briandademendoza.es/">I.E.S. Brianda de Mendoza</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none"
+                            href="http://riberadeltajo.es/nuevaweb/">I.E.S. Ribera del Tajo</a></p>
+
+
+                </div>
+
+                <div class="col-lg-3 h-100">
+                    <p class="text-white"><a class="text-white text-decoration-none" href="quienessomos.html">Quienes
+                            somos</a></p>
+                    <p class="text-white"><a class="text-white text-decoration-none" href=""
+                            data-bs-target="#privacidad" data-bs-toggle="modal">Privacidad</a>
+                    </p>
+                    <p class="text-white"><a class="text-white text-decoration-none" href="" data-bs-target="#contacto"
+                            data-bs-toggle="modal">Contacto</a></p>
+                </div>
+
+                <div class="col-lg-3 h-100">
+                    <a class="btn btn-success " href="#">
+                        HOME
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="text-center m-0 pb-2"> <strong>Catálogo de animales ©S1DAM - S1DAW</strong></p>
+    </footer>
+
+
+
+    <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
             <div class="modal-content bg-light">
@@ -245,7 +192,7 @@
                     <h3 class="modal-title text-center" id="modalTitleId">
                         Registro de usuario
                     </h3>
-                    
+
                 </div>
                 <div class="modal-body">
                     <form class="bg-white rounded border border-secondary">
@@ -258,13 +205,13 @@
                             </div>
                             <div class="mb-3">
                                 <label for="" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" name="" id="" aria-describedby="helpId"
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
                                     placeholder="" />
 
                             </div>
                             <div class="mb-3">
                                 <label for="" class="form-label">Repite la contraseña</label>
-                                <input type="password" class="form-control" name="" id="" aria-describedby="helpId"
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
                                     placeholder="" />
 
                             </div>
@@ -296,6 +243,8 @@
             </div>
         </div>
     </div>
+
+
     <div class="modal fade" id="iniciasesion" tabindex="-1" role="dialog" aria-labelledby="modalTitleIdIniciaSesion"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-down modal-sm" role="document">
@@ -322,106 +271,111 @@
 
                             </div>
                             <button type="button" class="btn btn-primary bg-success w-100 mt-1">Entrar</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Modal Body CUERPO Privacidad -->
-<div class="modal fade" id="privacidad" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
-aria-hidden="true">
-<div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="modalTitleIdPrivacidad">
-                Privacidad
-            </h5>
-        </div>
-        <div class="modal-body">
+    <div class="modal fade" id="privacidad" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleIdPrivacidad">
+                        Privacidad
+                    </h5>
+                </div>
+                <div class="modal-body">
 
-            <h2 class="text-center">Términos y Condiciones de uso</h2>
-            <h4>1. Datos Generales</h4>
-            <p> <strong> De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
-                    Sociedad de la
-                    Información y de Comercio Electrónico ponemos a su dispsición los siguientes datos:
-                </strong> </p>
-            <p> catalogodeanimales.es está domiciliada en la calle Ronda S/N, con CIF B556677. Inscrita en
-                el Registro
-                Mercantil de Talavera de Ia Reina, Vol. xxxx, Folio xxxx, Hoja xxxx, Inscripción xxx.
-                En la web catalogodeanimales.es hay una serie de contenidos de carácter informativo sobre
-                animales,
-                especies, y características. Su principal objetivo es facilitar a los clientes y al público
-                en general, Ia
-                información relativa a la empresa, a los productos y servicios que se ofrecen. </p>
-            <h4>2. Política de rivacidad</h4>
-            <p>En cumplimiento de 10 dispuesto en la <strong>Ley Orgánica 15/1999, de 13 de Diciembre, de
-                    Protección
-                    de Datos de Carácter Personal (LOPD) </strong> se informa al usuario que todos los datos
-                que nos
-                proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de
-                catalogodeanimales.es.
-                Siempre <strong>se va a respetar la confidencialidad de sus datos personales </strong> que
-                sólo serán utilizados con
-                la finalidad de gestionar los servicios ofrecidos, atender a las solicitudes que nos
-                plantee, realizar
-                tareas administrativas, así como remitir información técnica, comercial o publicitaria por
-                vía ordinaria o
-                electrónica.
-                Para ejercer sus derechos de oposición, rectificación o cancelación deberá dirigirse a la
-                sede de la
-                empresa C/Ronda S/N de Talavera de la Reina. escribirnos al siguiente correo
-                contacto@catalogodeanimales.es o llámanos al 777888999.</p>
-        </div>
-        <div class="modal-footer">
-
-        </div>
-    </div>
-</div>
-</div>
-<!-- Modal trigger button -->
-<button data-bs-toggle="modal" data-bs-target="#contacto">
-    Launch
-</button>
-<!-- PONER EN EL FOOTER contacto ESTO DENTRO DEL A: href="#" data-bs-toggle="modal" data-bs-target="#contacto"  -->
-<!-- Modal Body -->
-
-<div class="modal fade" id="contacto" tabindex="-1"  role="dialog"
-    aria-labelledby="modalTitleId" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-lg-down modal-lg" role="document">
-        <div class="modal-content bg-light">
-            <div class="text-center">
-                <h3 class="modal-title" id="modalTitleId">
-                    Escribe un comentario para contactar
-                </h3>
-
-            </div>
-            <div class="modal-body">
-                <form class="bg-white rounded border border-secondary">
-                    <div class="modal-body p-5">
-                        <div class="mb-3">
-                            <label for="" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                                placeholder="" />
-
-                        </div>
-                        <div class="mb-3">
-                            <label for="" class="form-label"> Tu E-mail </label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                                placeholder="" />
-
-                        </div>
-                        <div class="mb-3">
-                            <label for="" class="form-label"> Tu comentario </label>
-                            <textarea class="form-control" rows="8"></textarea>
-                        </div>
-                        <button type="button" class="btn btn-primary bg-success w-100 mt-1">Entrar</button>
-                </form>
+                    <h2 class="text-center">Términos y Condiciones de uso</h2>
+                    <h4>1. Datos Generales</h4>
+                    <p> <strong> De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
+                            Sociedad de la
+                            Información y de Comercio Electrónico ponemos a su dispsición los siguientes datos:
+                        </strong> </p>
+                    <p> catalogodeanimales.es está domiciliada en la calle Ronda S/N, con CIF B556677. Inscrita en
+                        el Registro
+                        Mercantil de Talavera de Ia Reina, Vol. xxxx, Folio xxxx, Hoja xxxx, Inscripción xxx.
+                        En la web catalogodeanimales.es hay una serie de contenidos de carácter informativo sobre
+                        animales,
+                        especies, y características. Su principal objetivo es facilitar a los clientes y al público
+                        en general, Ia
+                        información relativa a la empresa, a los productos y servicios que se ofrecen. </p>
+                    <h4>2. Política de rivacidad</h4>
+                    <p>En cumplimiento de 10 dispuesto en la <strong>Ley Orgánica 15/1999, de 13 de Diciembre, de
+                            Protección
+                            de Datos de Carácter Personal (LOPD) </strong> se informa al usuario que todos los datos
+                        que nos
+                        proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de
+                        catalogodeanimales.es.
+                        Siempre <strong>se va a respetar la confidencialidad de sus datos personales </strong> que
+                        sólo serán utilizados con
+                        la finalidad de gestionar los servicios ofrecidos, atender a las solicitudes que nos
+                        plantee, realizar
+                        tareas administrativas, así como remitir información técnica, comercial o publicitaria por
+                        vía ordinaria o
+                        electrónica.
+                        Para ejercer sus derechos de oposición, rectificación o cancelación deberá dirigirse a la
+                        sede de la
+                        empresa C/Ronda S/N de Talavera de la Reina. escribirnos al siguiente correo
+                        contacto@catalogodeanimales.es o llámanos al 777888999.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- Modal trigger button -->
+    <!-- PONER EN EL FOOTER contacto ESTO DENTRO DEL A: href="#" data-bs-toggle="modal" data-bs-target="#contacto"  -->
+    <!-- Modal Body -->
+
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-down modal-lg" role="document">
+            <div class="modal-content bg-light">
+                <div class="text-center">
+                    <h3 class="modal-title" id="modalTitleId">
+                        Escribe un comentario para contactar
+                    </h3>
+
+                </div>
+                <div class="modal-body">
+                    <form class="bg-white rounded border border-secondary">
+                        <div class="modal-body p-5">
+                            <div class="mb-3">
+                                <label for="" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"> Tu E-mail </label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"> Tu comentario </label>
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary bg-success w-100 mt-1">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 
 
-    </body>
+
+</body>
+
 </html>
-
